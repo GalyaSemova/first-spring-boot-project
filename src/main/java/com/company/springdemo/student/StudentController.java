@@ -5,7 +5,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
-
 @RestController
 @RequestMapping("/api/v1/students")
 public class StudentController {
@@ -16,4 +15,5 @@ public class StudentController {
                 "Hello World"
         );
     }
+
 }
