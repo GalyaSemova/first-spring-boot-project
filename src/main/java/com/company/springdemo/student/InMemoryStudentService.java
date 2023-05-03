@@ -3,7 +3,7 @@ package com.company.springdemo.student;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-@Service
+@Service("im")
 public class InMemoryStudentService implements StudentService{
 
     private final InMemoryStudentDao dao;
